@@ -11,46 +11,50 @@
   <title>Frontend Mentor | Notifications page</title>
 </head>
 <body>
-  <h1 class="hidden">Notification page challenge from frontendMentor.io</h1>
   <main class="container col">
+    <h1 class="hidden">Notification page challenge from frontendMentor.io</h1>
     <header>
       <h2>Notifications <span id="counter" class="counter-unread-msg mleft-2">3</span></h2>
       <button onclick="markAllAsRead()">Mark all as read</button>
     </header>
 
 
-    <article class="mbottom msg-unread">
+    <div class="mbottom msg-unread notification">
       <div class="row">
       <img class="img-profile" src="assets/images/avatar-mark-webber.webp" alt="Mark webber">
       <div class="col content mleft-2">
         <p>
           <a class="user-name" href="#">Mark Webber</a>
           reacted to your recent post
-          <a href="#">My first tournament today!</a>
+          <a href="#">My first tournament today!
+            <span class="dot"></span>
+          </a>
         </p>
           <div class=" row msg-date">
             5 days ago
           </div>
         </div>
     </div>
-    </article>
+    </div>
 
 
-    <article class="mbottom msg-unread">
+    <div class="mbottom msg-unread notification">
       <div class="row">
       <img class="img-profile" src="assets/images/avatar-angela-gray.webp" alt="Mark webber">
       <div class="col content mleft-2">
         <p>
           <a class="user-name" href="#">Angela Gray </a>
-          followed you</p>
+          followed you
+          <span class="dot"></span>
+        </p>
           <div class=" row msg-date">
             5m ago
           </div>
         </div>
     </div>
-    </article>
+    </div>
 
-    <article class="mbottom msg-unread">
+    <div class="mbottom msg-unread notification">
       <div class="row">
       <img class="img-profile" src="assets/images/avatar-jacob-thompson.webp" alt="Mark webber">
       <div class="col content mleft-2">
@@ -58,18 +62,19 @@
           <a class="user-name" href="#">Jacob Thompson </a>
           has joined your group
           <a href="#">Chess Club</a>
+          <span class="dot"></span>
         </p>
           <div class=" row msg-date">
             1 day ago
           </div>
         </div>
     </div>
-    </article>
+    </div>
 
 
 
 
-    <article class="mbottom">
+    <div class="mbottom notification">
       <div class="row">
       <img class="img-profile" src="assets/images/avatar-rizky-hasanuddin.webp" alt="Mark webber">
       <div class="col content mleft-2">
@@ -88,9 +93,9 @@
       </p>
       
     </div>
-    </article>
+    </div>
 
-    <article class="mbottom">
+    <div class="mbottom notification">
       <div class="row">
       <img class="img-profile" src="assets/images/avatar-kimberly-smith.webp" alt="Mark webber">
       <div class="col content mleft-2">
@@ -106,10 +111,10 @@
         <img class="img-post" src="assets/images/image-chess.webp" alt="">
       </div>
     </div>
-    </article>
+    </div>
 
 
-    <article class="mbottom">
+    <div class="mbottom nitification">
       <div class="row">
       <img class="img-profile" src="assets/images/avatar-nathan-peterson.webp" alt="Mark webber">
       <div class="col content mleft-2">
@@ -123,10 +128,10 @@
           </div>
         </div>
     </div>
-    </article>
+    </div>
 
 
-    <article class="mbottom">
+    <div class="mbottom notification">
       <div class="row">
       <img class="img-profile" src="assets/images/avatar-anna-kim.webp" alt="Mark webber">
       <div class="col content mleft-2">
@@ -138,16 +143,11 @@
           </div>
         </div>
     </div>
-    </article>
+    </div>
   
 
 
   </main>
   
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>

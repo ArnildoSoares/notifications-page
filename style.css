@@ -67,7 +67,7 @@ header{
     justify-content: space-between;
     padding: 1em 0;
 }
-article{
+.notification{
     display: flex;
     flex-direction: column;
     padding: 1em;
@@ -118,9 +118,14 @@ article{
 .self-top{
     justify-self: flex-start;
 }
-.ed{
-    border: 1px solid red;
-}
 .msg-date{
     color: hsl(219, 12%, 42%);
+}
+.dot{
+    display: inline-block;
+    width: 0.5em;
+    height: 0.5em;
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 0.5em;
+    margin-left: 0.2em;
 }
