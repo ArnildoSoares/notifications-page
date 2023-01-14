@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.counter-unread-msg{
+    background-color:hsl(219, 85%, 26%);
+    color: white;
+    font-size: 0.7em;
+    font-weight: 300;
+    padding: 0.1em 0.5em;
+    border-radius: 0.2em;
+    line-height: 2em;
+}
+.hidden{
+    position: absolute;
+    top: -2000px;
+    font-size: 1px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 800;
+}
+a:hover{
+    color: hsl(219, 85%, 26%);
+}
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(210, 60%, 98%);
+}
+p{
+    color: hsl(219, 12%, 42%);
+}
+.container{
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: center;
+    min-width: 37.5rem;
+    max-width: 72rem;
+    background-color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    margin: 1.6rem;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.img-profile{
+    max-width: 3em;
+    height: 3em;
+}
+.row{
+    display: flex;
+    justify-content: left;
+}
+.img-post{
+    width: 3em;
+    height: 3em;
+    
+}
+.content{
+    justify-content: space-between;
+    flex-grow: 2;
+}
+.mleft-1{
+    margin-left: 0.5em;
+}
+.mleft-2{
+    margin-left: 1em;
+}
+.user-name{
+    color:hsl(224, 21%, 14%);
+    font-weight: 800;
+}
+.mbottom{
+    margin-bottom: 0.5em;
+}
+.response{
+    border-radius: 0.2em;
+    margin-top: 1em;
+    margin-left: 4em;
+    padding: 1em;
+    border: 1px solid hsl(205, 33%, 90%);
+}
+.msg-read{
+    background-color: white;
+}
+.msg-unread{
+    background-color: hsl(210, 60%, 98%);
+}
+.self-top{
+    justify-self: flex-start;
+}
+.ed{
+    border: 1px solid red;
+}
+.msg-date{
+    color: hsl(219, 12%, 42%);
+}
